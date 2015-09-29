@@ -134,6 +134,8 @@ public class chatActivity extends Activity implements OnItemClickListener ,OnCli
 				return false;
 			}
 		});
+
+
 		check.setOnTouchListener(new View.OnTouchListener() {
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
