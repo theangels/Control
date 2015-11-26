@@ -49,7 +49,7 @@ public class chatActivity extends Activity implements OnItemClickListener ,OnCli
 	private clientThread clientConnectThread = null;
 	private BluetoothSocket socket = null;
 	private BluetoothDevice device = null;
-	private readThread mreadThread = null;;
+	private readThread mreadThread = null;
 	private BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
 	private SensorManager mSensorManager;
